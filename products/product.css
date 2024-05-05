@@ -1,0 +1,235 @@
+:root {
+    --fontAlegreya: 'Alegreya Sans SC', Arial, sans-serif;
+    --fontYanone: "Yanone Kaffeesatz", sans-serif, arial;
+    --fontRoboto: "Roboto", sans-serif, arial;
+    --orange: #ffc92f;
+    --gray: #e0d9c8;
+    --gray2: #e4ddcc;
+    --black: #1b1b1b;
+    --black2: #212121;
+    --black3: #2f2c25;
+    --green: #529029;
+    --blue: #39498d;
+    --red: #d82727;
+}
+
+.wrapper {
+    min-width: 1300px;
+}
+
+.hero {
+    min-height: 180px;
+    height: 180px;
+    overflow: hidden;
+    margin-bottom: 90px;
+}
+
+.fade-slider__item {
+    background: url(./../img/web-ready/decor/header-guys.png) center center / contain no-repeat;
+    height: 224%;
+    width: 100%;
+    position: absolute;
+    top: -52px;
+}
+
+.fade-slider__text {
+    left: 51%;
+    top: 43%;
+}
+
+.lined-text {
+    font-size: 31px;
+    font-family: var(--fontAlegreya);
+}
+
+.lined-text__word{
+    padding: 0 6px 5px;
+    margin-top: -4px;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    height: 670px;
+}
+
+.product__view {
+    width: 537px;
+    background: var(--orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__img {
+    width: 480px;
+    height: 420px;
+}
+
+.product__text {
+    border-top: var(--orange) 10px solid;
+    border-right: var(--orange) 10px solid;
+    border-bottom: var(--orange) 10px solid;
+}
+
+.product__hero {
+    padding: 25px 275px 30px 28px;
+    border-bottom: var(--gray) 1px solid;
+}
+
+.product__manufacturer {
+    color: var(--orange);
+    font-size: 17px;
+    font-family: var(--fontRoboto);
+    font-weight: bold;
+    
+}
+
+.product__title {
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 47px;
+    font-family: var(--fontYanone);
+    font-weight: bold;
+    margin: 0;
+    margin-top: -6px;
+    margin-bottom: 2px;
+    height: 60px;
+}
+
+.product__price-amount {
+    color: var(--black);
+    background: var(--orange);
+    display: inline-block;
+    padding: 0 15px;
+    font-family: var(--fontYanone);
+    font-weight: bold;
+    font-size: 40px;
+    height: 50px;
+}
+
+.product__desc {
+    padding: 23px 340px 28px 28px;
+    border-bottom: var(--gray) 1px solid;
+}
+
+.product__item {
+    font-family: var(--fontRoboto);
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--black);
+    margin-bottom: 15px;
+}
+
+.product__item:last-child {
+    margin: 0;
+}
+
+.product__choice {
+    padding: 28px 80px 28px 28px;
+}
+
+.menu-size {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-size__item {
+    display: flex;
+    height: 45px;
+    width: 45px;
+    border: var(--gray2) 2px solid;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-size__link {
+    text-decoration: none;
+    color: var(--black2);
+    text-transform: uppercase;
+    font-family: var(--fontRoboto);
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+}
+
+.menu-color {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+
+.menu-color__item {
+    height: 29px;
+    width: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: transparent 4px solid;
+    border-radius: 50%;
+}
+
+.menu-color__item:last-child {
+    margin-right: 245px;
+}
+
+.menu-color__item--active {
+    border-color: var(--orange);  
+}
+
+.menu-color__link {
+    width: 21px;
+    height: 21px;
+    border-radius: 50%; 
+    display: block;    
+    border: transparent 2px solid;
+} 
+
+.menu-color__link--black {
+    background: var(--black3);
+
+}
+
+.menu-color__link--white {
+    border-color: var(--gray);
+}
+
+.menu-color__link--green {
+    background: var(--green);
+
+}
+
+.menu-color__link--blue {
+    background: var(--blue);
+
+}
+
+.menu-color__link--red {
+    background: var(--red);
+}
+
+.product__btn {
+    height: 45px;
+    width: 210px;
+    margin-top: 27px ;
+    padding-top: 5px;
+    background: var(--orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__btn:hover {
+    background: var(--red);
+}
+
+.btn__link {
+    font-family: var(--fontYanone);
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
