@@ -1,0 +1,20 @@
+.fade-slider__item {
+    background: url(./../img/web-ready/decor/header-guys.png) center center / contain no-repeat;
+    width: 100%;
+    height: 214%;
+    overflow: hidden;
+    position: absolute;
+    top: -50px;
+}
+
+.hero {
+    height: 180px;
+    min-height: 180px;
+}
+
+.lined__text {
+    font-size: 31px;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
