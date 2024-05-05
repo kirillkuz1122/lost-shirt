@@ -10,6 +10,7 @@
     min-height: 180px;
     height: 180px;
     overflow: hidden;
+    margin-bottom: 90px;
 }
 
 .fade-slider__item {
@@ -33,5 +34,44 @@
 .lined-text__word{
     padding: 0 6px 5px;
     margin-top: -4px;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+}
+
+.product__view {
+    height: 670px;
+    width: 537px;
+    background: #ffc92f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__img {
+    width: 480px;
+    height: 420px;
+}
+
+.product__text {
+    border-top: #ffc92f 10px solid;
+    border-right: #ffc92f 10px solid;
+    border-bottom: #ffc92f 10px solid;
+}
+
+.product__hero {
+    padding: 25px 275px 30px 28px;
+    border-bottom: #e0d9c8 1px solid;
+}
+
+.product__desc {
+    padding: 30px 340px 35px 28px;
+    border-bottom: #e0d9c8 1px solid;
+}
+
+.product__choice {
+    padding: 28px 80px 28px 28px;
 }
 
