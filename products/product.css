@@ -5,6 +5,7 @@
     --orange: #ffc92f;
     --gray: #e0d9c8;
     --gray2: #e4ddcc;
+    --gray3: #cac3b3;
     --black: #1b1b1b;
     --black2: #212121;
     --black3: #2f2c25;
@@ -143,6 +144,11 @@
     align-items: center;
 }
 
+.menu-size__item--active {
+    border-color: transparent;
+    background: var(--orange);
+}
+
 .menu-size__link {
     text-decoration: none;
     color: var(--black2);
@@ -151,6 +157,10 @@
     font-size: 15px;
     font-weight: bold;
     display: block;
+}
+
+.menu-size__link--cannot {
+    color: var(--gray3);
 }
 
 .menu-color {
@@ -231,5 +241,7 @@
     color: #fff;
     text-transform: uppercase;
 }
+
+
 
 
