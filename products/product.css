@@ -74,7 +74,7 @@
 }
 
 .product__hero {
-    padding: 25px 275px 30px 28px;
+    padding: 21px 275px 26px 28px;
     border-bottom: var(--gray) 1px solid;
 }
 
@@ -110,7 +110,7 @@
 }
 
 .product__desc {
-    padding: 23px 340px 28px 28px;
+    padding: 22px 340px 27px 28px;
     border-bottom: var(--gray) 1px solid;
 }
 
@@ -119,7 +119,7 @@
     font-size: 13px;
     font-weight: 400;
     color: var(--black);
-    margin-bottom: 15px;
+    margin-bottom: 14px;
 }
 
 .product__item:last-child {
