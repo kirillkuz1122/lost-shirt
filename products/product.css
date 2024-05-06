@@ -52,6 +52,7 @@
     display: flex;
     justify-content: center;
     height: 670px;
+    margin-bottom: 95px;
 }
 
 .product__view {
@@ -241,6 +242,38 @@
 
     color: #fff;
     text-transform: uppercase;
+}
+
+.about__product {
+
+}
+
+.menu__list {
+    width: 695px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+}
+
+.menu__link {
+    font-size: 22px;
+    font-family: var(--fontYanone);
+    font-weight: bold;
+    color: var(--black);
+    height: 34px;
+    padding: 6px 20px 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu__link--active {
+    color: var(--orange);
+    background: var(--black);
 }
 
 

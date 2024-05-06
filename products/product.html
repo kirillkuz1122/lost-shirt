@@ -129,6 +129,31 @@
             </div>
         </section>
 
+        <section class="about-product">
+            <div class="about-product__menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#" data-filter="desc" class="menu__link menu__link--active">описание</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" data-filter="size-table" class="menu__link">таблица размеров</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" data-filter="delivery" class="menu__link">условия доставки</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" data-filter="about-manufacturer" class="menu__link">о бренде</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="about-product__list">
+                <div class="about-product__item--style-desc desc about-product__item"></div>
+                <div class="about-product__item--style-size-table size-table about-product__item"></div>
+                <div class="about-product__item--style-delivery delivery about-product__item"></div>
+                <div class="about-product__item about-manufacturer about-product__item--style-about-manufacturer"></div>
+            </div>
+        </section>
+
         <footer class="footer">
             <div class="container footer__container">
                 <nav class="site-menu">
@@ -262,8 +287,10 @@
                 </section>
             </div>
         </footer>
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
         <script src="./../scripts/menu-size.js"></script>
         <script src="./../scripts/menu-color.js"></script>
+        <script src="./../scripts/about-product__menu.js"></script>
     </div>
 </body>
 </html>
