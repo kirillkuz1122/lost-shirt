@@ -1,6 +1,5 @@
 (function () {
     const menubtn = document.querySelectorAll('.menu-color__item');
-    const menulink = document.querySelectorAll('.menu-color__link');
     const img = document.querySelector('.product__img');
     const text = document.getElementsByClassName('product__item');
 
@@ -11,16 +10,12 @@
                 link.closest('.menu-color__item').classList.remove('menu-color__item--active');
             })
             btn.closest('.menu-color__item').classList.add('menu-color__item--active');
-        })
-    })
-
-    menulink.forEach(function(btn) {
-        btn.addEventListener('click', function() {
-            colorblack = btn.classList.contains('menu-color__link--black');
-            colorwhite = btn.classList.contains('menu-color__link--white');
-            colorgreen = btn.classList.contains('menu-color__link--green');
-            colorblue = btn.classList.contains('menu-color__link--blue');
-            colorred = btn.classList.contains('menu-color__link--red');
+            const btnlink = btn.children[0]
+            colorblack = btnlink.classList.contains('menu-color__link--black');
+            colorwhite = btnlink.classList.contains('menu-color__link--white');
+            colorgreen = btnlink.classList.contains('menu-color__link--green');
+            colorblue = btnlink.classList.contains('menu-color__link--blue');
+            colorred = btnlink.classList.contains('menu-color__link--red');
             if (colorblack) {
                 img.src = './../img/web-ready/tshirts/tshirt_07.png';
                 img.alt = 'футболка черная rick and morty'
