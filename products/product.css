@@ -6,12 +6,14 @@
     --gray: #e0d9c8;
     --gray2: #e4ddcc;
     --gray3: #cac3b3;
+    --gray4: #e5dece;
     --black: #1b1b1b;
     --black2: #212121;
     --black3: #2f2c25;
     --green: #529029;
     --blue: #39498d;
     --red: #d82727;
+    --white: #fff;
 }
 
 .wrapper {
@@ -240,7 +242,7 @@
     font-size: 28px;
     font-weight: bold;
 
-    color: #fff;
+    color: var(--white);
     text-transform: uppercase;
 }
 
@@ -282,47 +284,71 @@
 
 .about-product__item {
     display: flex;
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
     margin-top: 70px;
-    /* left: -1000px;
-    position: absolute;
-    transition: left .3s; */
+    border: var(--orange) 10px solid;
+    width: 1080px;
 }
 
-.about-product__item--active {
-    /* left: 0; */
+.about-product__item--style-desc {
+    height: 277px;
+}
+
+.about-product__how-wash {
+    border-right: var(--gray4) 1px solid;
+}
+
+.how-wash__list {
+    margin: 43px 41px 45px 0;
 }
 
 .how-wash__item {
     display: flex;
     align-items: center;
+    margin-bottom: 18px;
+}
 
+.how-wash__item:last-child {
+    margin: 0;
 }
 
 .item__ico--style-wash1 {
     width: 24px;
     height: 17px;
+    margin-left: 34px;
+    margin-right: 26px;
+    display: block;
 }
 
 .item__ico--style-wash2 {
     width: 24px;
     height: 23px;
+    margin-left: 34px;
+    margin-right: 26px;
+    display: block;
 }
 
 .item__ico--style-wash3 {
     width: 26px;
     height: 13px;
+    margin-left: 33px;
+    margin-right: 25px;
+    display: block;
 }
 
 .item__ico--style-wash4 {
     width: 24px;
     height: 23px;
+    margin-left: 34px;
+    margin-right: 26px;
+    display: block;
 }
 
 .item__ico--style-wash5 {
     width: 24px;
     height: 23px;
+    margin-left: 34px;
+    margin-right: 26px;
+    display: block;
 }
 
 .item__text {
@@ -331,11 +357,19 @@
     font-weight: 400;
 }
 
+.about-product__desc {
+    margin: 45px 0 0 47px;
+}
+
 .desc__text {
     width: 605px;
     font-family: var(--fontRoboto);
     font-size: 13px;
     font-weight: 400;
+}
+
+.site-menu__title {
+    margin-top: 80px;
 }
 
 
