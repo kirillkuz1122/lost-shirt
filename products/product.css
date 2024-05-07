@@ -386,6 +386,10 @@
     font-weight: 400;
 }
 
+.manual__item {
+    list-style: lower;
+}
+
 .site-menu__title {
     margin-top: 80px;
 }
