@@ -148,6 +148,16 @@
     text-decoration: none;
 }
 
+.menu-size__link:hover {
+    border-color: transparent;
+    background: var(--red);
+}
+
+.menu-size__link--cannot:hover {
+    border-color: var(--gray2);
+    background: transparent;
+}
+
 .menu-size__link--active {
     border-color: transparent;
     background: var(--orange);
@@ -184,6 +194,10 @@
 
 .menu-color__item:last-child {
     margin-right: 245px;
+}
+
+.menu-color__item:hover {
+    border-color: var(--red);
 }
 
 .menu-color__item--active {
@@ -271,6 +285,10 @@
     padding: 6px 20px 0 20px;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.menu__link:hover {
+    color: var(--red);
 }
 
 .menu__link--active {
