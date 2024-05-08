@@ -1,5 +1,5 @@
 :root {
-    --fontAlegreya: 'Alegreya Sans SC', Arial, sans-serif;
+    --fontAlegreya: "Alegreya Sans SC", Arial, sans-serif;
     --fontYanone: "Yanone Kaffeesatz", sans-serif, arial;
     --fontRoboto: "Roboto", sans-serif, arial;
     --orange: #ffc92f;
@@ -28,7 +28,8 @@
 }
 
 .fade-slider__item {
-    background: url(./../img/web-ready/decor/header-guys.png) center center / contain no-repeat;
+    background: url(./../img/web-ready/decor/header-guys.png) center center /
+        contain no-repeat;
     height: 224%;
     width: 100%;
     position: absolute;
@@ -45,7 +46,7 @@
     font-family: var(--fontAlegreya);
 }
 
-.lined-text__word{
+.lined-text__word {
     padding: 0 6px 5px;
     margin-top: -4px;
 }
@@ -86,7 +87,6 @@
     font-size: 17px;
     font-family: var(--fontRoboto);
     font-weight: bold;
-    
 }
 
 .product__title {
@@ -201,20 +201,19 @@
 }
 
 .menu-color__item--active {
-    border-color: var(--orange);  
+    border-color: var(--orange);
 }
 
 .menu-color__link {
     width: 21px;
     height: 21px;
-    border-radius: 50%; 
-    display: block;    
+    border-radius: 50%;
+    display: block;
     border: transparent 2px solid;
-} 
+}
 
 .menu-color__link--black {
     background: var(--black3);
-
 }
 
 .menu-color__link--white {
@@ -223,12 +222,10 @@
 
 .menu-color__link--green {
     background: var(--green);
-
 }
 
 .menu-color__link--blue {
     background: var(--blue);
-
 }
 
 .menu-color__link--red {
@@ -238,7 +235,7 @@
 .btn__link {
     height: 45px;
     width: 210px;
-    margin-top: 27px ;
+    margin-top: 27px;
     padding-top: 5px;
     background: var(--orange);
     display: flex;
@@ -261,7 +258,6 @@
 }
 
 .about__product {
-
 }
 
 .menu__list {
@@ -393,6 +389,3 @@
 .site-menu__title {
     margin-top: 80px;
 }
-
-
-

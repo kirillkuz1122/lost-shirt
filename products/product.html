@@ -1,364 +1,541 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="1300">
-    <link rel="stylesheet" href="./../main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@900&family=Roboto:wght@700&family=Ubuntu&family=Yanone+Kaffeesatz:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link rel="stylesheet" href="./product.css">
-    <title>product-view</title>
-</head>
-<body>
-    <div class="wrapper">
-        <section class="hero">
-            <header class="header">
-                <a href="./../index.html" class="logo">
-                    <img src="./../img/web-ready/content/logos/logo-main.png" alt="lost shirt logo"
-                        class="logo__pic">
-                </a>
-                <a href="mailto:lostinspace@mail.ru" class="mail">
-                    <div class="mail__title">По всем вопросам пишити нам:</div>
-                    <div class="mail__content">lostinspace@mail.ru</div>
-                </a>
-            </header>
-            <div class="hero__content">
-                <div class="fade-slider">
-                    <div class="fade-slider__item fade-slider__item--style-thirts fade-slider__item--visible">
-                        <div class="fade-slider__text fade-slider__text--style-thirts ">
-                            <h1 class="lined-text">
-                                <div class="lined-text__word lined-text__word--style-thirts">три</div>
-                                <div class="lined-text__word lined-text__word--style-thirts">футболки</div>
-                                <div class="lined-text__word lined-text__word--color-yellow lined-text__word--style-thirts">по цене</div>
-                                <div class="lined-text__word lined-text__word--color-yellow lined-text__word--style-thirts">двух</div>
-                            </h1>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="1300" />
+        <link rel="stylesheet" href="./../main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@900&family=Roboto:wght@700&family=Ubuntu&family=Yanone+Kaffeesatz:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+        />
+        <link rel="stylesheet" href="./product.css" />
+        <title>product-view</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <section class="hero">
+                <header class="header">
+                    <a href="./../index.html" class="logo">
+                        <img
+                            src="./../img/web-ready/content/logos/logo-main.png"
+                            alt="lost shirt logo"
+                            class="logo__pic"
+                        />
+                    </a>
+                    <a href="mailto:lostinspace@mail.ru" class="mail">
+                        <div class="mail__title">
+                            По всем вопросам пишити нам:
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="product">
-            <div class="product__view">
-                <img src="./../img/web-ready/tshirts/tshirt_07.png" alt="футболка черная rick and morty" class="product__img">
-            </div>
-            <div class="product__text">
-                <div class="product__hero">
-                    <div class="product__manufacturer">Футболка Hurley</div>
-                    <h2 class="product__title">rick and morty</h2>
-                    <div class="product__price-amount">2 000</div>
-                </div>
-                <div class="product__desc">
-                    <ul class="product__list">
-                        <li class="product__item">Состав: Хлопок 100%</li>
-                        <li class="product__item">Сезон: Мульти</li>
-                        <li class="product__item">Цвет: Черный</li>
-                        <li class="product__item">Узор: Рисуноки и надписи</li>
-                        <li class="product__item">Страна производства: Россия</li>
-                        <li class="product__item">Артикул: MA002EWDOEZ6</li>
-                    </ul>
-                </div>
-                <div class="product__choice">
-                    <ul class="menu-size">
-                        <li class="menu-size__item">
-                            <a href="#" class="menu-size__link menu-size__link--cannot">
-                                <div class="menu-size__text">XXS</div>
-                            </a>
-                        </li>
-                        <li class="menu-size__item">
-                            <a href="#" class="menu-size__link menu-size__link--cannot">
-                                <div class="menu-size__text">XS</div>
-                            </a>
-                        </li>
-                        <li class="menu-size__item">
-                            <a href="#" class="menu-size__link menu-size__link--active">
-                                <div class="menu-size__text">S</div>
-                            </a>
-                        </li>
-                        <li class="menu-size__item">
-                            <a href="#" class="menu-size__link">
-                                <div class="menu-size__text">M</div>
-                            </a>
-                        </li>
-                        <li class="menu-size__item">
-                            <a href="#" class="menu-size__link">
-                                <div class="menu-size__text">L</div>
-                            </a>
-                        </li>
-                        <li class="menu-size__item">
-                            <a href="#" class="menu-size__link">
-                                <div class="menu-size__text">XL</div>
-                            </a>
-                        </li>
-                        <li class="menu-size__item">
-                            <a href="#" class="menu-size__link">
-                                <div class="menu-size__text">2XL</div>
-                            </a>
-                        </li>
-                        <li class="menu-size__item">
-                            <a href="#" class="menu-size__link menu-size__link--cannot">
-                                <div class="menu-size__text">3XL</div>
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="menu-color">
-                        <li class="menu-color__item menu-color__item--active">
-                            <a href="#" class="menu-color__link menu-color__link--black"></a>
-                        </li>
-                        <li class="menu-color__item">
-                            <a href="#" class="menu-color__link menu-color__link--white"></a>
-                        </li>
-                        <li class="menu-color__item">
-                            <a href="#" class="menu-color__link menu-color__link--green" ></a>
-                        </li>
-                        <li class="menu-color__item">
-                            <a href="#" class="menu-color__link menu-color__link--blue"></a>
-                        </li>
-                        <li class="menu-color__item">
-                            <a href="#" class="menu-color__link menu-color__link--red"></a>
-                        </li>
-                    </ul>
-                    <div class="product__btn">
-                        <a href="#" class="btn__link">
-                            <div class="btn__text">купить</div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="about-product">
-            <div class="container footer__container">
-                <div class="about-product__menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="#" data-filter="desc" class="menu__link ">описание</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" data-filter="size-table" class="menu__link menu__link--active">таблица размеров</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" data-filter="delivery" class="menu__link">условия доставки</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" data-filter="about-manufacturer" class="menu__link">о бренде</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="about-product__list">
-                    <div class="about-product__item--style-desc desc about-product__item">
-                        <div class="about-product__how-wash">
-                            <ul class="how-wash__list">
-                                <li class="how-wash__item">
-                                    <div class="item__ico">
-                                        <svg class="item__ico--style-wash1">
-                                            <use xlink:href="./../img/web-ready/icons-sprite.svg#washing_01"></use>
-                                        </svg>
+                        <div class="mail__content">lostinspace@mail.ru</div>
+                    </a>
+                </header>
+                <div class="hero__content">
+                    <div class="fade-slider">
+                        <div
+                            class="fade-slider__item fade-slider__item--style-thirts fade-slider__item--visible"
+                        >
+                            <div
+                                class="fade-slider__text fade-slider__text--style-thirts"
+                            >
+                                <h1 class="lined-text">
+                                    <div
+                                        class="lined-text__word lined-text__word--style-thirts"
+                                    >
+                                        три
                                     </div>
-                                    <div class="item__text">Стирать при температуре 30°С</div>
-                                </li>
-                                <li class="how-wash__item">
-                                    <div class="item__ico">
-                                        <svg class="item__ico--style-wash2">
-                                            <use xlink:href="./../img/web-ready/icons-sprite.svg#washing_02"></use>
-                                        </svg>
+                                    <div
+                                        class="lined-text__word lined-text__word--style-thirts"
+                                    >
+                                        футболки
                                     </div>
-                                    <div class="item__text">Не отбеливать</div>
-                                </li>
-                                <li class="how-wash__item">
-                                    <div class="item__ico">
-                                        <svg class="item__ico--style-wash3">
-                                            <use xlink:href="./../img/web-ready/icons-sprite.svg#washing_03"></use>
-                                        </svg>
+                                    <div
+                                        class="lined-text__word lined-text__word--color-yellow lined-text__word--style-thirts"
+                                    >
+                                        по цене
                                     </div>
-                                    <div class="item__text">Гладить теплым утюгом<br>с внутренней стороны</div>
-                                </li>
-                                <li class="how-wash__item">
-                                    <div class="item__ico">
-                                        <svg class="item__ico--style-wash4">
-                                            <use xlink:href="./../img/web-ready/icons-sprite.svg#washing_04"></use>
-                                        </svg>
+                                    <div
+                                        class="lined-text__word lined-text__word--color-yellow lined-text__word--style-thirts"
+                                    >
+                                        двух
                                     </div>
-                                    <div class="item__text">Не подвергать химической чистке</div>
-                                </li>
-                                <li class="how-wash__item">
-                                    <div class="item__ico">
-                                        <svg class="item__ico--style-wash5"> 
-                                            <use xlink:href="./../img/web-ready/icons-sprite.svg#washing_05"></use>
-                                        </svg>
-                                    </div>
-                                    <div class="item__text">Не сушить в барабане</div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="about-product__desc">
-                            <div class="desc__text">Футболка из приятной ткани с качественным принтом, это одна из самых универсальных вещей в гардеробе. Она подойдет и для занятий спортом, и для прогулок, и для работы, если разрешен свободный дресс-код.</div>
-                        </div>
-                    </div>
-                    <div class="about-product__item--style-size-table size-table about-product__item">
-                        <div class="item__manual">
-                            <div class="manual__pic">
-                                <img src="./../img/web-ready/tshirts/tshirt_00.png" alt="фтуболка показывающая где длина и ширина" class="manual__img">
+                                </h1>
                             </div>
-                            <ul class="manual__list">
-                                <li class="manual__item">
-                                    <div class="manual__text">Измерьте ширину, см.<br>(от подмышки до подмышки)</div>
-                                </li>
-                                <li class="manual__item">
-                                    <div class="manual__text">Измерьте длину, см.<br>(от верхней точки плеча до низа)</div>
-                                </li>
-                                <li class="manual__item">
-                                    <div class="manual__text">Сверьте данные с таблицей</div>
-                                </li>
-                            </ul>
                         </div>
-                        <div class="item__size-table"></div>
                     </div>
-                    <div class="about-product__item--style-delivery delivery about-product__item">b</div>
-                    <div class="about-product__item about-manufacturer about-product__item--style-about-manufacturer">c</div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <footer class="footer">
-            <div class="container footer__container">
-                <nav class="site-menu">
-                    <ul class="site-menu__sections">
-                        <li class="site-menu__col">
-                            <h3 class="site-menu__title">
-                                информация
-                            </h3>
-                            <ul class="site-menu__list">
-                                <li class="site-menu__item">
-                                    <a href="#" class="site-menu__link">О магазине</a>
-                                </li>
-                                <li class="site-menu__item">
-                                    <a href="#" class="site-menu__link">Адреса магазинов</a>
-                                </li>
-                                <li class="site-menu__item">
-                                    <a href="#" class="site-menu__link">Как сделать заказ</a>
-                                </li>
-                                <li class="site-menu__item">
-                                    <a href="#" class="site-menu__link">Обмен и возврат</a>
-                                </li>
-                                <li class="site-menu__item">
-                                    <a href="#" class="site-menu__link">Отзывы</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="site-menu__col">
-                            <h3 class="site-menu__title">
-                                футболки
-                            </h3>
-                            <ul class="site-menu__list">
-                                <li class="site-menu__item">
-                                    <a href="#" class="site-menu__link">Популярное</a>
-                                </li>
-                                <li class="site-menu__item">
-                                    <a href="#" class="site-menu__link">Новинки</a>
-                                </li>
-                                <li class="site-menu__item">
-                                    <a href="#" class="site-menu__link">Бестселлеры</a>
-                                </li>
-                                <li class="site-menu__item">
-                                    <a href="#" class="site-menu__link">Специальные предложения</a>
-                                </li>
-                                <li class="site-menu__item">
-                                    <a href="#" class="site-menu__link">Скоро в продаже</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="site-menu__col">
-                            <h3 class="site-menu__title">
-                                коллекция
-                            </h3>
-                            <ul class="site-menu__list">
-                                <li class="site-menu__item">
-                                    <a href="#" class="site-menu__link">Детская коллекция</a>
-                                </li>
-                                <li class="site-menu__item">
-                                    <a href="#" class="site-menu__link">Женская коллекция</a>
-                                </li>
-                                <li class="site-menu__item">
-                                    <a href="#" class="site-menu__link">Мужская коллекция</a>
-                                </li>
-                                <li class="site-menu__item">
-                                    <a href="#" class="site-menu__link">Лучшие принты 2018 года</a>
-                                </li>
-                                <li class="site-menu__item">
-                                    <a href="#" class="site-menu__link">Лучшие принты 2019 года</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="site-menu__col">
-                            <h3 class="site-menu__title">
-                                контактная информация
-                            </h3>
-                            <div class="site-menu__text">
-                                Санкт-Петербург, <br>
-                                ул. Жуковского, д. 12
-                            </div>
-                            <div class="site-menu__text">
-                                <a href="tel.:+78123157235" class="site-menu__text-row">
-                                    Телефон: 8 (812) 315-72-35
+            <section class="product">
+                <div class="product__view">
+                    <img
+                        src="./../img/web-ready/tshirts/tshirt_07.png"
+                        alt="футболка черная rick and morty"
+                        class="product__img"
+                    />
+                </div>
+                <div class="product__text">
+                    <div class="product__hero">
+                        <div class="product__manufacturer">Футболка Hurley</div>
+                        <h2 class="product__title">rick and morty</h2>
+                        <div class="product__price-amount">2 000</div>
+                    </div>
+                    <div class="product__desc">
+                        <ul class="product__list">
+                            <li class="product__item">Состав: Хлопок 100%</li>
+                            <li class="product__item">Сезон: Мульти</li>
+                            <li class="product__item">Цвет: Черный</li>
+                            <li class="product__item">
+                                Узор: Рисуноки и надписи
+                            </li>
+                            <li class="product__item">
+                                Страна производства: Россия
+                            </li>
+                            <li class="product__item">Артикул: MA002EWDOEZ6</li>
+                        </ul>
+                    </div>
+                    <div class="product__choice">
+                        <ul class="menu-size">
+                            <li class="menu-size__item">
+                                <a
+                                    href="#"
+                                    class="menu-size__link menu-size__link--cannot"
+                                >
+                                    <div class="menu-size__text">XXS</div>
                                 </a>
-                                <a href="mailto:support@yourwebsite.com" class="site-menu__text-row">
-                                    Email: support@yourwebsite.com
+                            </li>
+                            <li class="menu-size__item">
+                                <a
+                                    href="#"
+                                    class="menu-size__link menu-size__link--cannot"
+                                >
+                                    <div class="menu-size__text">XS</div>
                                 </a>
-                            </div>
-                        </li>
-                    </ul>
-                </nav>
-                <section class="extras">
-                    <div class="extras__col">
-                        <a href="#" class="extras__best">
-                            лучшие принты <br>
-                            2019 года
-                        </a>
-                    </div>
-                    <div class="extras__col">
-                        <div class="extras__col-socials">
-                            <ul class="socials">
-                                <li class="socials__item">
-                                    <a href="#" class="socials__link">
-                                        <svg class="socials__icons">
-                                            <use xlink:href=".\..\img\web-ready\icons-sprite.svg#fb"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="socials__item">
-                                    <a href="#" class="socials__link">
-                                        <svg class="socials__icons">
-                                            <use xlink:href=".\..\img\web-ready\icons-sprite.svg#twitter"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="socials__item">
-                                    <a href="#" class="socials__link">
-                                        <svg class="socials__icons">
-                                            <use xlink:href=".\..\img\web-ready\icons-sprite.svg#insta"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="socials__item">
-                                    <a href="#" class="socials__link">
-                                        <svg class="socials__icons">
-                                            <use xlink:href=".\..\img\web-ready\icons-sprite.svg#pin"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
+                            </li>
+                            <li class="menu-size__item">
+                                <a
+                                    href="#"
+                                    class="menu-size__link menu-size__link--active"
+                                >
+                                    <div class="menu-size__text">S</div>
+                                </a>
+                            </li>
+                            <li class="menu-size__item">
+                                <a href="#" class="menu-size__link">
+                                    <div class="menu-size__text">M</div>
+                                </a>
+                            </li>
+                            <li class="menu-size__item">
+                                <a href="#" class="menu-size__link">
+                                    <div class="menu-size__text">L</div>
+                                </a>
+                            </li>
+                            <li class="menu-size__item">
+                                <a href="#" class="menu-size__link">
+                                    <div class="menu-size__text">XL</div>
+                                </a>
+                            </li>
+                            <li class="menu-size__item">
+                                <a href="#" class="menu-size__link">
+                                    <div class="menu-size__text">2XL</div>
+                                </a>
+                            </li>
+                            <li class="menu-size__item">
+                                <a
+                                    href="#"
+                                    class="menu-size__link menu-size__link--cannot"
+                                >
+                                    <div class="menu-size__text">3XL</div>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="menu-color">
+                            <li
+                                class="menu-color__item menu-color__item--active"
+                            >
+                                <a
+                                    href="#"
+                                    class="menu-color__link menu-color__link--black"
+                                ></a>
+                            </li>
+                            <li class="menu-color__item">
+                                <a
+                                    href="#"
+                                    class="menu-color__link menu-color__link--white"
+                                ></a>
+                            </li>
+                            <li class="menu-color__item">
+                                <a
+                                    href="#"
+                                    class="menu-color__link menu-color__link--green"
+                                ></a>
+                            </li>
+                            <li class="menu-color__item">
+                                <a
+                                    href="#"
+                                    class="menu-color__link menu-color__link--blue"
+                                ></a>
+                            </li>
+                            <li class="menu-color__item">
+                                <a
+                                    href="#"
+                                    class="menu-color__link menu-color__link--red"
+                                ></a>
+                            </li>
+                        </ul>
+                        <div class="product__btn">
+                            <a href="#" class="btn__link">
+                                <div class="btn__text">купить</div>
+                            </a>
                         </div>
                     </div>
-                </section>
-            </div>
-        </footer>
-        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-        <script src="./../scripts/menu-size.js"></script>
-        <script src="./../scripts/menu-color.js"></script>
-        <script src="./../scripts/about-product__menu.js"></script>
-    </div>
-</body>
+                </div>
+            </section>
+
+            <section class="about-product">
+                <div class="container footer__container">
+                    <div class="about-product__menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a
+                                    href="#"
+                                    data-filter="desc"
+                                    class="menu__link"
+                                    >описание</a
+                                >
+                            </li>
+                            <li class="menu__item">
+                                <a
+                                    href="#"
+                                    data-filter="size-table"
+                                    class="menu__link menu__link--active"
+                                    >таблица размеров</a
+                                >
+                            </li>
+                            <li class="menu__item">
+                                <a
+                                    href="#"
+                                    data-filter="delivery"
+                                    class="menu__link"
+                                    >условия доставки</a
+                                >
+                            </li>
+                            <li class="menu__item">
+                                <a
+                                    href="#"
+                                    data-filter="about-manufacturer"
+                                    class="menu__link"
+                                    >о бренде</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about-product__list">
+                        <div
+                            class="about-product__item--style-desc desc about-product__item"
+                        >
+                            <div class="about-product__how-wash">
+                                <ul class="how-wash__list">
+                                    <li class="how-wash__item">
+                                        <div class="item__ico">
+                                            <svg class="item__ico--style-wash1">
+                                                <use
+                                                    xlink:href="./../img/web-ready/icons-sprite.svg#washing_01"
+                                                ></use>
+                                            </svg>
+                                        </div>
+                                        <div class="item__text">
+                                            Стирать при температуре 30°С
+                                        </div>
+                                    </li>
+                                    <li class="how-wash__item">
+                                        <div class="item__ico">
+                                            <svg class="item__ico--style-wash2">
+                                                <use
+                                                    xlink:href="./../img/web-ready/icons-sprite.svg#washing_02"
+                                                ></use>
+                                            </svg>
+                                        </div>
+                                        <div class="item__text">
+                                            Не отбеливать
+                                        </div>
+                                    </li>
+                                    <li class="how-wash__item">
+                                        <div class="item__ico">
+                                            <svg class="item__ico--style-wash3">
+                                                <use
+                                                    xlink:href="./../img/web-ready/icons-sprite.svg#washing_03"
+                                                ></use>
+                                            </svg>
+                                        </div>
+                                        <div class="item__text">
+                                            Гладить теплым утюгом<br />с
+                                            внутренней стороны
+                                        </div>
+                                    </li>
+                                    <li class="how-wash__item">
+                                        <div class="item__ico">
+                                            <svg class="item__ico--style-wash4">
+                                                <use
+                                                    xlink:href="./../img/web-ready/icons-sprite.svg#washing_04"
+                                                ></use>
+                                            </svg>
+                                        </div>
+                                        <div class="item__text">
+                                            Не подвергать химической чистке
+                                        </div>
+                                    </li>
+                                    <li class="how-wash__item">
+                                        <div class="item__ico">
+                                            <svg class="item__ico--style-wash5">
+                                                <use
+                                                    xlink:href="./../img/web-ready/icons-sprite.svg#washing_05"
+                                                ></use>
+                                            </svg>
+                                        </div>
+                                        <div class="item__text">
+                                            Не сушить в барабане
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="about-product__desc">
+                                <div class="desc__text">
+                                    Футболка из приятной ткани с качественным
+                                    принтом, это одна из самых универсальных
+                                    вещей в гардеробе. Она подойдет и для
+                                    занятий спортом, и для прогулок, и для
+                                    работы, если разрешен свободный дресс-код.
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="about-product__item--style-size-table size-table about-product__item"
+                        >
+                            <div class="item__manual">
+                                <div class="manual__pic">
+                                    <img
+                                        src="./../img/web-ready/tshirts/tshirt_00.png"
+                                        alt="фтуболка показывающая где длина и ширина"
+                                        class="manual__img"
+                                    />
+                                </div>
+                                <ul class="manual__list">
+                                    <li class="manual__item">
+                                        <div class="manual__text">
+                                            Измерьте ширину, см.<br />(от
+                                            подмышки до подмышки)
+                                        </div>
+                                    </li>
+                                    <li class="manual__item">
+                                        <div class="manual__text">
+                                            Измерьте длину, см.<br />(от верхней
+                                            точки плеча до низа)
+                                        </div>
+                                    </li>
+                                    <li class="manual__item">
+                                        <div class="manual__text">
+                                            Сверьте данные с таблицей
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="item__size-table"></div>
+                        </div>
+                        <div
+                            class="about-product__item--style-delivery delivery about-product__item"
+                        >
+                            b
+                        </div>
+                        <div
+                            class="about-product__item about-manufacturer about-product__item--style-about-manufacturer"
+                        >
+                            c
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container footer__container">
+                    <nav class="site-menu">
+                        <ul class="site-menu__sections">
+                            <li class="site-menu__col">
+                                <h3 class="site-menu__title">информация</h3>
+                                <ul class="site-menu__list">
+                                    <li class="site-menu__item">
+                                        <a href="#" class="site-menu__link"
+                                            >О магазине</a
+                                        >
+                                    </li>
+                                    <li class="site-menu__item">
+                                        <a href="#" class="site-menu__link"
+                                            >Адреса магазинов</a
+                                        >
+                                    </li>
+                                    <li class="site-menu__item">
+                                        <a href="#" class="site-menu__link"
+                                            >Как сделать заказ</a
+                                        >
+                                    </li>
+                                    <li class="site-menu__item">
+                                        <a href="#" class="site-menu__link"
+                                            >Обмен и возврат</a
+                                        >
+                                    </li>
+                                    <li class="site-menu__item">
+                                        <a href="#" class="site-menu__link"
+                                            >Отзывы</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="site-menu__col">
+                                <h3 class="site-menu__title">футболки</h3>
+                                <ul class="site-menu__list">
+                                    <li class="site-menu__item">
+                                        <a href="#" class="site-menu__link"
+                                            >Популярное</a
+                                        >
+                                    </li>
+                                    <li class="site-menu__item">
+                                        <a href="#" class="site-menu__link"
+                                            >Новинки</a
+                                        >
+                                    </li>
+                                    <li class="site-menu__item">
+                                        <a href="#" class="site-menu__link"
+                                            >Бестселлеры</a
+                                        >
+                                    </li>
+                                    <li class="site-menu__item">
+                                        <a href="#" class="site-menu__link"
+                                            >Специальные предложения</a
+                                        >
+                                    </li>
+                                    <li class="site-menu__item">
+                                        <a href="#" class="site-menu__link"
+                                            >Скоро в продаже</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="site-menu__col">
+                                <h3 class="site-menu__title">коллекция</h3>
+                                <ul class="site-menu__list">
+                                    <li class="site-menu__item">
+                                        <a href="#" class="site-menu__link"
+                                            >Детская коллекция</a
+                                        >
+                                    </li>
+                                    <li class="site-menu__item">
+                                        <a href="#" class="site-menu__link"
+                                            >Женская коллекция</a
+                                        >
+                                    </li>
+                                    <li class="site-menu__item">
+                                        <a href="#" class="site-menu__link"
+                                            >Мужская коллекция</a
+                                        >
+                                    </li>
+                                    <li class="site-menu__item">
+                                        <a href="#" class="site-menu__link"
+                                            >Лучшие принты 2018 года</a
+                                        >
+                                    </li>
+                                    <li class="site-menu__item">
+                                        <a href="#" class="site-menu__link"
+                                            >Лучшие принты 2019 года</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="site-menu__col">
+                                <h3 class="site-menu__title">
+                                    контактная информация
+                                </h3>
+                                <div class="site-menu__text">
+                                    Санкт-Петербург, <br />
+                                    ул. Жуковского, д. 12
+                                </div>
+                                <div class="site-menu__text">
+                                    <a
+                                        href="tel.:+78123157235"
+                                        class="site-menu__text-row"
+                                    >
+                                        Телефон: 8 (812) 315-72-35
+                                    </a>
+                                    <a
+                                        href="mailto:support@yourwebsite.com"
+                                        class="site-menu__text-row"
+                                    >
+                                        Email: support@yourwebsite.com
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                    <section class="extras">
+                        <div class="extras__col">
+                            <a href="#" class="extras__best">
+                                лучшие принты <br />
+                                2019 года
+                            </a>
+                        </div>
+                        <div class="extras__col">
+                            <div class="extras__col-socials">
+                                <ul class="socials">
+                                    <li class="socials__item">
+                                        <a href="#" class="socials__link">
+                                            <svg class="socials__icons">
+                                                <use
+                                                    xlink:href=".\..\img\web-ready\icons-sprite.svg#fb"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials__item">
+                                        <a href="#" class="socials__link">
+                                            <svg class="socials__icons">
+                                                <use
+                                                    xlink:href=".\..\img\web-ready\icons-sprite.svg#twitter"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials__item">
+                                        <a href="#" class="socials__link">
+                                            <svg class="socials__icons">
+                                                <use
+                                                    xlink:href=".\..\img\web-ready\icons-sprite.svg#insta"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials__item">
+                                        <a href="#" class="socials__link">
+                                            <svg class="socials__icons">
+                                                <use
+                                                    xlink:href=".\..\img\web-ready\icons-sprite.svg#pin"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </footer>
+            <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+            <script src="./../scripts/menu-size.js"></script>
+            <script src="./../scripts/menu-color.js"></script>
+            <script src="./../scripts/about-product__menu.js"></script>
+        </div>
+    </body>
 </html>

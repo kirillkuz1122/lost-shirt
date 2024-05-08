@@ -5,7 +5,7 @@
     --yellowProducts: #ffc92f;
     --red: #d82727;
     --fontYanone: "Yanone Kaffeesatz", sans-serif, arial;
-    --fontAlegreya: 'Alegreya Sans SC', Arial, sans-serif;
+    --fontAlegreya: "Alegreya Sans SC", Arial, sans-serif;
     --fontRoboto: "Roboto", sans-serif, arial;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 body {
-    font: 16px / 1.42 'roboto', arial, sans-serif;
+    font: 16px / 1.42 "roboto", arial, sans-serif;
     color: var(--black);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -28,7 +28,7 @@ ul {
     padding: 0;
 }
 
-ul>li {
+ul > li {
     list-style: none;
 }
 
@@ -101,25 +101,26 @@ ul>li {
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: opacity .3s
+    transition: opacity 0.3s;
 }
-
 
 .fade-slider__item--visible {
     opacity: 1;
 }
 
 .fade-slider__item--style-thirts {
-    background: url(./img/web-ready/content/hero/slider_pic_1.png) center center / contain no-repeat;
+    background: url(./img/web-ready/content/hero/slider_pic_1.png) center center /
+        contain no-repeat;
 }
 
 .fade-slider__item--style-game {
-    background: url(./img/web-ready/content/hero/slider_pic_2.png) center center / contain no-repeat;
+    background: url(./img/web-ready/content/hero/slider_pic_2.png) center center /
+        contain no-repeat;
 }
 
 .fade-slider__item--style-presents {
-    background: url(./img/web-ready/content/hero/slider_pic_3.png) center center / contain no-repeat;
-    
+    background: url(./img/web-ready/content/hero/slider_pic_3.png) center center /
+        contain no-repeat;
 }
 
 .fade-slider__text {
@@ -190,7 +191,7 @@ ul>li {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    transition: width .3s;
+    transition: width 0.3s;
 }
 
 .sidebar--opened {
@@ -206,7 +207,7 @@ ul>li {
     left: 0;
     width: 100%;
     text-align: center;
-    transition-delay: .1s;
+    transition-delay: 0.1s;
 }
 
 .sidebar--opened .sidebar__hamburger {
@@ -233,7 +234,7 @@ ul>li {
 .sidebar__hamburger-icon {
     fill: var(--yellowProducts);
     width: 23px;
-    height: 21px;  
+    height: 21px;
 }
 
 .sidebar__hamburger-icon:hover {
@@ -258,7 +259,7 @@ ul>li {
 .sidebar__menu {
     position: absolute;
     left: -400px;
-    transition: left .3s;
+    transition: left 0.3s;
 }
 
 .sidebar-menu__item {
@@ -400,7 +401,7 @@ ul>li {
     left: 0;
     right: 0;
     padding: 23px 30px;
-    background: rgba(35, 35, 35, .8);
+    background: rgba(35, 35, 35, 0.8);
     font-size: 15px;
     color: #fff;
     font-family: var(--fontRoboto);
@@ -410,7 +411,7 @@ ul>li {
     flex-direction: column;
     align-items: center;
     transform: translateY(100%);
-    transition: transform .3s;
+    transition: transform 0.3s;
 }
 
 .products__desc-text {
@@ -427,7 +428,6 @@ ul>li {
     text-decoration: none;
     color: var(--yellowProducts);
     display: inline-block;
-
 }
 
 .btn:hover {
@@ -448,7 +448,7 @@ ul>li {
     flex: 1;
     overflow: hidden;
     margin-right: 30px;
-    background: url('./img/web-ready/bg/pattern.png') center center / 500px;
+    background: url("./img/web-ready/bg/pattern.png") center center / 500px;
     position: relative;
 }
 
@@ -457,7 +457,8 @@ ul>li {
 }
 
 .collection__item--type-guys:before {
-    background: url("./img/web-ready/collections/collection_man.png") center center / 80% no-repeat;
+    background: url("./img/web-ready/collections/collection_man.png") center
+        center / 80% no-repeat;
     content: "";
     display: block;
     position: absolute;
@@ -468,7 +469,8 @@ ul>li {
 }
 
 .collection__item--type-girls:before {
-    background: url("./img/web-ready/collections/collection_woman.png") center center / 93.5% no-repeat;
+    background: url("./img/web-ready/collections/collection_woman.png") center
+        center / 93.5% no-repeat;
     content: "";
     display: block;
     position: absolute;
@@ -514,7 +516,6 @@ ul>li {
 .site-menu__sections {
     display: flex;
     justify-content: space-between;
-
 }
 
 .site-menu__col {
@@ -546,7 +547,6 @@ ul>li {
 
 .site-menu__link:hover {
     color: var(--red);
-
 }
 
 .site-menu__text {
@@ -599,7 +599,8 @@ ul>li {
 }
 
 .extras__col-socials {
-    background: url(./img/web-ready/bg/pattern.png) center center / 110% no-repeat;
+    background: url(./img/web-ready/bg/pattern.png) center center / 110%
+        no-repeat;
     height: 100%;
     display: flex;
     align-items: center;
