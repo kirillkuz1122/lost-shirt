@@ -502,6 +502,12 @@
     .menu-size__link--cannot:hover .menu-size__text {
         color: var(--gray3);
     }
+    .site-menu__link:hover {
+        color: var(--red);
+    }
+    .socials__link:hover .socials__icons {
+        fill: var(--red);
+    }
 }
 
 @media (hover: none) {
@@ -530,5 +536,11 @@
     }
     .menu-size__link--cannot:active .menu-size__text {
         color: var(--gray3);
+    }
+    .site-menu__link:active {
+        color: var(--red);
+    }
+    .socials__link:active .socials__icons {
+        fill: var(--red);
     }
 }
