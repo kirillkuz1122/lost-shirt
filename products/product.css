@@ -8,10 +8,12 @@
     --gray3: #cac3b3;
     --gray4: #e5dece;
     --gray5: #f6efe0;
+    --gray6: #737373;
     --black: #1b1b1b;
     --black2: #212121;
     --black3: #2f2c25;
     --black4: #232323;
+    --black5: #000;
     --green: #529029;
     --blue: #39498d;
     --red: #d82727;
@@ -537,8 +539,14 @@
     .menu-size__link--cannot:active .menu-size__text {
         color: var(--gray3);
     }
+    .site-menu__link:hover {
+        color: var(--gray6);
+    }
     .site-menu__link:active {
         color: var(--red);
+    }
+    .socials__link:hover .socials__icons {
+        fill: var(--black5);
     }
     .socials__link:active .socials__icons {
         fill: var(--red);
