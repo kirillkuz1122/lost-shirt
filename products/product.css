@@ -391,30 +391,31 @@
 }
 
 .size-table__item {
-    width: 72px;
-    height: 41px;
+    width: 73px;
+    height: 44px;
     padding-top: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-left: var(--gray4) 1px solid;
     border-bottom: var(--gray4) 1px solid;
+    box-sizing: border-box;
 }
 
 .size-table__item--big-width {
-    width: 143px;
+    width: 160px;
     justify-content: flex-start;
     padding-left: 16px;
 }
 
 .size-table__item--style-title {
-    height: 58px;
+    height: 61px;
     background: var(--gray5);
 }
 
 .size-table__item:nth-child(n + 73) {
     border-bottom: transparent 1px solid;
-    height: 44px;
+    height: 47px;
 }
 
 .size-table__text {
