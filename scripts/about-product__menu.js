@@ -2,7 +2,7 @@
     const elem = document.querySelector(".about-product__list");
     const iso = new Isotope(elem, {
         temSelector: ".about-product__item",
-        filter: ".size-table",
+        filter: ".desc",
     });
 
     const menubtn = document.querySelectorAll(".menu__link");

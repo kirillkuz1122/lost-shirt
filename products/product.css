@@ -410,7 +410,7 @@
     background: var(--gray5);
 }
 
-.size-table__item:nth-child(n+73){
+.size-table__item:nth-child(n + 73) {
     border-bottom: transparent 1px solid;
     height: 44px;
 }
@@ -425,6 +425,50 @@
 .size-table__item--style-title .size-table__text {
     font-weight: bold;
     font-size: 14px;
+}
+
+.about-product__item--style-delivery {
+    height: 239px;
+}
+
+.delivery__logo {
+    border-right: var(--gray4) 1px solid;
+}
+
+.delivery__img {
+    margin: 41px 94px 45px 75px;
+}
+
+.delivery__text {
+    font-family: var(--fontRoboto);
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0px 0px 8px 47px;
+    color: var(--black);
+}
+
+.delivery__text:first-child {
+    margin-top: 45px;
+}
+
+.about-product__item--style-about-manufacturer {
+    height: 239px;
+}
+
+.about-manufacturer__logo {
+    border-right: var(--gray4) 1px solid;
+}
+
+.about-manufacturer__img {
+    margin: 56px 54px 0 59px;
+}
+
+.about-manufacturer__text {
+    margin: 42px 0 0 47px;
+    font-family: var(--fontRoboto);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--black);
 }
 
 .site-menu__title {
